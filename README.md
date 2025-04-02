@@ -19,6 +19,77 @@ As a fellow IT, the one question I get asked a lot by security professionals is 
 
 # Functions
 
+## System Info
+
+- Device Name
+- Windows Update Version
+- IP Address
+- Subnet Mask
+- Gateway
+- DNS Servers
+- Physical Network Devices
+
+
+## CPU/Memory Usage
+
+- Process ID
+- Process Name
+- Average CPU (%)
+- Average Memory (%)
+- Process File
+## Devices
+- Node
+-DeviceID
+- Description
+-Manufacturer
+- Name
+- Status
+## File System
+
+- Drive Usage Statistics
+    - Drive
+    - Total (GB)
+    - Used (GB)
+    - Free (GB)
+    - Usage (%)
+
+- Top-Level Folder Sizes
+    - Folder
+    - Size (GB)
+
+- C:\Users Folder Breakdown
+    - Folder
+    - Size (GB)
+## Network Connections
+
+- Local Address
+- Remote Address
+- Status
+- Process Name
+- PID
+## USB Info
+
+- Device ID
+- Friendly Name
+## User Logins
+### Only works with PRO or higher
+
+- username
+- session
+- logon time
+
+## Ping Test
+
+- Target
+    - loopback
+    - local IP
+    - Default Gateway
+    - google.com
+- IP Address
+    - IPV4
+- Reachable
+    - True/False
+
 # Usage
 
 # Support
