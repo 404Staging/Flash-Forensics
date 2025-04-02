@@ -125,3 +125,5 @@ Performs a ping test of the loopback, Local IP, Default Gateway, and google.com.
 3. Have the user send you the ZIP file via any method of your choosing! 
 
 # Support
+
+This repository is currently maintained by a single IT. Please consider sponsoring 404Staging to help maintain this project and others.
