@@ -19,7 +19,11 @@ As a fellow IT, the one question I get asked a lot by security professionals is 
 
 # Functions
 
+Breaking down each function you can run and the information available in each csv file...
+
 ## System Info
+
+Basic system information to help baseline what you are looking at. 
 
 - Device Name
 - Windows Update Version
@@ -32,19 +36,28 @@ As a fellow IT, the one question I get asked a lot by security professionals is 
 
 ## CPU/Memory Usage
 
+This replicates the information from the running task manager but averages the CPU and Memory over a 5 minute timeframe.
+
 - Process ID
 - Process Name
 - Average CPU (%)
 - Average Memory (%)
 - Process File
+
 ## Devices
+
+This shows some basic information you would find in device manager.
+
 - Node
 -DeviceID
 - Description
 -Manufacturer
 - Name
 - Status
+
 ## File System
+
+Shows stats of the drive file forensics is running on. It also breaks down the top level files and c:\Users directory and usage.
 
 - Drive Usage Statistics
     - Drive
@@ -60,7 +73,10 @@ As a fellow IT, the one question I get asked a lot by security professionals is 
 - C:\Users Folder Breakdown
     - Folder
     - Size (GB)
+
 ## Network Connections
+
+Collects the same information at NETSTAT -A -D and what process is running the connection.
 
 - Local Address
 - Remote Address
@@ -68,17 +84,21 @@ As a fellow IT, the one question I get asked a lot by security professionals is 
 - Process Name
 - PID
 ## USB Info
+Shows the stats of all USB devices that are stored in the local registry.
 
 - Device ID
 - Friendly Name
 ## User Logins
 ### Only works with PRO or higher
+Lets you see username and basic session stats stored in the event viewer.
 
 - username
 - session
 - logon time
 
 ## Ping Test
+
+Performs a ping test of the loopback, Local IP, Default Gateway, and google.com.
 
 - Target
     - loopback
