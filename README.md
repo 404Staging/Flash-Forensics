@@ -112,4 +112,16 @@ Performs a ping test of the loopback, Local IP, Default Gateway, and google.com.
 
 # Usage
 
+- Make sure local user has admin rights!
+- (optional) Disable antivirus real-time scanning if flagged while running
+
+1. Have the user right click on FlashForensics.exe.
+    ![Run As Admin](./Media/Screenshots/RunAs.jpg)
+2. Have the user select the location to save the zip file
+    - Select what functions to run
+    - click the Run Button
+    - The zip file is saved as FlashForensics_Report.zip in the directory specified
+    ![Usage](./Media/Screenshots/Usage.jpg)
+3. Have the user send you the ZIP file via any method of your choosing! 
+
 # Support
